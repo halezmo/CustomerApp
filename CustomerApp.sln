@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApp", "CustomerApp\CustomerApp.csproj", "{92DCA056-DB0B-4C09-AA8C-E163013E461C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApp.Service", "CustomerApp.Service\CustomerApp.Service.csproj", "{0376376C-1253-44D1-8E15-331D2F26EC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerApp.Model", "CustomerApp.Model\CustomerApp.Model.csproj", "{0384FBD3-3E0E-4ACA-8528-B3816C315639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92DCA056-DB0B-4C09-AA8C-E163013E461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92DCA056-DB0B-4C09-AA8C-E163013E461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92DCA056-DB0B-4C09-AA8C-E163013E461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92DCA056-DB0B-4C09-AA8C-E163013E461C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0376376C-1253-44D1-8E15-331D2F26EC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0376376C-1253-44D1-8E15-331D2F26EC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0376376C-1253-44D1-8E15-331D2F26EC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0376376C-1253-44D1-8E15-331D2F26EC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0384FBD3-3E0E-4ACA-8528-B3816C315639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0384FBD3-3E0E-4ACA-8528-B3816C315639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0384FBD3-3E0E-4ACA-8528-B3816C315639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0384FBD3-3E0E-4ACA-8528-B3816C315639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://hallekv.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CustomerApp.Model\\CustomerApp.Model.csproj
+		SccProjectName1 = CustomerApp.Model
+		SccLocalPath1 = CustomerApp.Model
+		SccProjectUniqueName2 = CustomerApp.Service\\CustomerApp.Service.csproj
+		SccProjectName2 = CustomerApp.Service
+		SccLocalPath2 = CustomerApp.Service
+		SccProjectUniqueName3 = CustomerApp\\CustomerApp.csproj
+		SccProjectName3 = CustomerApp
+		SccLocalPath3 = CustomerApp
+	EndGlobalSection
+EndGlobal
