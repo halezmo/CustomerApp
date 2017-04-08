@@ -12,28 +12,24 @@ namespace CustomerApp.Service.Implementation
 
         private int getNextCustomerId()
         {
-            Func<int> customerId = () => { return customers.Count + 1; };
-
-            int id = customerId();
-
-            return id;
+            return customers.Count + 1;
         }
 
         public DummyCustomerService()
         {
-
+            //load some data
             int id = getNextCustomerId();
 
-            customers.Add(new Customer() { Id = id, Address = "Address" , Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
+            customers.Add(new Customer() { Id = id, Address = "Address" + id, Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
 
             id = getNextCustomerId();    
-            customers.Add(new Customer() { Id = id, Address = "Address", Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
+            customers.Add(new Customer() { Id = id, Address = "Address" + id, Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
 
             id = getNextCustomerId();
-            customers.Add(new Customer() { Id = id, Address = "Address", Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
+            customers.Add(new Customer() { Id = id, Address = "Address" + id, Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
 
             id = getNextCustomerId();
-            customers.Add(new Customer() { Id = id, Address = "Address", Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
+            customers.Add(new Customer() { Id = id, Address = "Address" + id, Name = "Name" + id, Surname = "Surname" + id, TelephoneNumber = "Phone" + id });
         }
 
 
