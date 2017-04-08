@@ -3,6 +3,7 @@ using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
 using CustomerApp.Service.Interface;
 using CustomerApp.Service;
+using CustomerApp.Service.Implementation;
 
 namespace CustomerApp.App_Start
 {
@@ -38,7 +39,8 @@ namespace CustomerApp.App_Start
             // container.LoadConfiguration();
 
             // TODO: Register your types here
-            container.RegisterType<ICustomerService, CustomerService>();
+            //container.RegisterType<ICustomerService, CustomerService>();
+            container.RegisterType<ICustomerService, DummyCustomerService>(new ContainerControlledLifetimeManager());
         }
     }
 }

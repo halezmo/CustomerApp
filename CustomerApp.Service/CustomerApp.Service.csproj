@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Implementation\CustomerService.cs" />
+    <Compile Include="Implementation\DummyCustomerService.cs" />
     <Compile Include="Interface\ICustomerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
